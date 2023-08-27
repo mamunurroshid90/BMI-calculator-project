@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+
+      <p class="kg">Weight(kg)</p>
+      <input
+        class="weight"
+        type="number"
+        placeholder="Enter your weight in kg"
+      />
+      <p class="weight-error"></p>
+
+      <p class="foot">Height(foot)</p>
+      <input
+        class="height"
+        type="number"
+        placeholder="Enter your height in foot"
+      />
+      <p class="height-error"></p>
+
+      <button class="calculate-btn">Calculate</button>
+
+      <p class="result"></p>
+    </div>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

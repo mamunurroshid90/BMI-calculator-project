@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Combo", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 80px;
+  width: 350px;
+  box-shadow: 1px 0px 10px 7px rgba(114, 95, 95, 0.59);
+  -webkit-box-shadow: 1px 0px 10px 7px rgba(114, 95, 95, 0.59);
+  -moz-box-shadow: 1px 0px 10px 7px rgba(114, 95, 95, 0.59);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+.container p {
+  padding: 15px 0;
+}
+.kg,
+.foot {
+  font-size: 18px;
+  font-weight: 600;
+}
+.container input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 95%;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container button {
+  width: 100%;
+  border: none;
+  padding: 8px 0;
+  border-radius: 8px;
+  background-color: blue;
+  color: #fff;
+  font-size: 22px;
+  margin: 10px 0 20px;
+}
+.container .result {
+  font-size: 22px;
+  color: green;
+}
+.height-error,
+.weight-error {
+  color: red;
+  margin-top: -15px;
+}
