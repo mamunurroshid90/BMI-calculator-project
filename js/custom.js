@@ -25,17 +25,16 @@ calculate_button.addEventListener("click", () => {
   }
 
   let bmi = ((weight.value * 2.20462) / (height.value * 12) ** 2) * 703;
-  console.log(bmi);
 
   if (bmi < 18.5) {
     result.innerHTML = "You are under weight";
-  } else if (bmi > 18.5 && bmi < 24.9) {
+  } else if (bmi > 18.5 && bmi <= 24.9) {
     result.innerHTML = `You are perfect <i class="fa-solid fa-thumbs-up"></i>`;
-  } else if (bmi >= 25 && bmi < 29.9) {
+  } else if (bmi >= 25 && bmi <= 29.9) {
     result.innerHTML = "You are overweight";
-  } else if (bmi >= 30 && bmi < 34.9) {
+  } else if (bmi >= 30 && bmi <= 34.9) {
     result.innerHTML = "You are obesity";
   } else {
-    result.innerHTML = "You are so extremely obesity";
+    result.innerHTML = "You are obesity";
   }
 });
